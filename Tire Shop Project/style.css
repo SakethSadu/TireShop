@@ -1,0 +1,124 @@
+html{
+    width: 100%;
+    background-color: #333;
+}
+.header-container{
+    display: flex;
+    
+}
+
+/* Header styles */
+.header-banner {   
+    
+    padding: 10px; /* Add padding */
+    
+}
+.header-wrapper {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Align items horizontally */
+}
+
+.col-alignleft {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+}
+.col-alignright {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+}
+.small-logo {
+    margin-right: 20px; /* Add margin */
+}
+
+.service-toggle-button, .homePage-Cart {
+    background-color: #ddd; /* Button background color */
+    color: #333; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    margin: 0;
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height:40px;
+    box-sizing: border-box;
+}
+
+.service-toggle-button:hover, .homePage-Cart:hover {
+    background-color: #aaa; /* Change background color on hover */
+}
+
+
+a>img{
+    height: 100px;
+    width: 150px;
+}
+
+
+.main-content-section {
+    display: flex;
+    /*align-items: center; /* Vertically center align items */
+   
+    width: 100%;
+}
+
+.main-content-image img {
+    max-width: 100%; /* Ensure image does not exceed container width */
+}
+
+.main-content-content {
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+.main-content-content h1 {
+    font-size: 24px; /* Example font size */
+    margin-bottom: 10px; /* Space between h1 and h3 */
+    text-align: center;
+    color: white;
+
+}
+
+.main-content-content h3 {
+    font-size: 18px; /* Example font size */
+    text-align: center;
+    color: white;
+}
+
+.main-content-content p {
+    font-size: 16px; /* Example font size */
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+h1 span{
+    color: aquamarine;
+}
+
+footer {
+   
+    width: 100%;    
+    text-align: center;
+    font-size: 20px;
+    
+    color: white;
+    text-decoration: none; 
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;  
+   
+    color: white;    
+}
+footer p{
+      
+    text-align: center;
+    font-size: 15px;
+   
+    color: white;
+    text-decoration: none; 
+}
